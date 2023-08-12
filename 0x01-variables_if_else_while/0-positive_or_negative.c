@@ -6,7 +6,7 @@
 /**
  * main - my main function
  *
- * Return: always 0
+ * Return: Always 0
  */
 
 int main(void)
@@ -17,11 +17,10 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	if (n > 0)
-		printf("% is positive", n);
+		printf("% is positive\n", n);
 	else if (n == 0)
-		printf("% is zero", n);
-	else if (n < 0)
-		printf("% is negative", n);
-	printf("\n");
+		printf("% is zero\n", n);
+	else
+		printf("% is negative\n", n);
 	return (0);
 }
