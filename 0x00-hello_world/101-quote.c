@@ -4,7 +4,7 @@
 /**
  * main - a functoin of main
  *
- * Return: 1 all time
+ * Return: Always 1
  */
 
 int main(void)
