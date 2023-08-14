@@ -7,6 +7,12 @@
 
 int main(void)
 {
+	int a;
+	long int b;
+	long long int c;
+	char d;
+	float f;
+
 	printf("Size of char: %ld byte(s)\n", sizeof(char));
 	printf("Size of int: %ld byte(s)\n", sizeof(int));
 	printf("Size of long int: %ld byte(s)\n", sizeof(long int));
