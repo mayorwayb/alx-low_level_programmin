@@ -9,6 +9,8 @@ int main(void)
 	int n = 98;
 	int fib1 = 1, fib2 = 2;
 
+	int i;
+
 	printf("%d, %d", fib1, fib2);
 
 	for (int i = 3 ; i <= n ; i++)
