@@ -6,20 +6,25 @@
  */
 int main(void)
 {
-	int n = 50;
-	unsigned long long fib1 = 1, fib2 = 2;
+	int i = 0;
+	long a = 1, b = 2;
 
-	printf("%llu, %llu", fib1, fib2);
-
-	for (int i = 3 ; i <= n ; i++)
+	while (i < 50)
 	{
-		unsigned long long nextFib = fib1 + fib2;
+		if (i == 0)
+			printf("%ld", a);
+		else if (i == 1)
+			printf(", %ld", b);
+		else
+		{
+			b += a;
+			a = b - a;
+			printf(", %ld", b);
+		}
 
-		printf(", %llu", nextFib);
-
-		fib1 = fib2;
-		fib2 = nextFib;
+		++i;
 	}
+
 	printf("\n");
 	return (0);
 }
