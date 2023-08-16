@@ -12,8 +12,8 @@ int main(void)
 	int i;
 
 	printf("%d, %d", fib1, fib2);
-
-	for (int i = 3 ; i <= n ; i++)
+	i = 3;
+	for (; i <= n ; i++)
 	{
 		int nextFib = fib1 + fib2;
 
