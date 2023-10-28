@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  * flip_bits - function to flip to get from one number to another number
  * @n: number
  * @m: another number
